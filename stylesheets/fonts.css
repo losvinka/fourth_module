@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "AdventureIndianaJones";
+  src: url(../fonts/Adventure_Indiana_Jones.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../fonts/coolvetica\ rg.ttf) format("truetype");
+  font-size: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "IsamiRi Display Regular";
+  src: url(../fonts/IsamiRiDisplayRegular.ttf) format("truetype");
+  font-size: normal;
+  font-weight: 500;
+}
