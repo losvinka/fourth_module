@@ -16,3 +16,9 @@
   font-size: normal;
   font-weight: 500;
 }
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(../fonts/HelveticaNeue.otf) format("truetype");
+  font-size: normal;
+  font-weight: 400;
+}

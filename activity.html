@@ -9,19 +9,91 @@
     <title>activity</title>
   </head>
   <body>
-    <h1>Наши мероприятия</h1>
-    <p>
-      мы крутые, тут можно увидеть серию плакатов из 2 модуля, и веб-плакаты из
-      2 и 3 модулей
-    </p>
-    <nav>
-      <a href="index.html">Главная</a>
-      <a href="about.html">О нас</a>
-      <a href="shop.html">Мерч</a>
-      <a href="activity.html">Страница с мероприятиями </a>
-      <!-- внутри будут ссылки на страницы 2 и 3 модуля  -->
-      <a href="tariffplan.html">Тарифный план</a>
-      <a href="404.html">Ошибка 404</a>
-    </nav>
+    <header>
+      <nav class="navbar">
+        <img src="images/logo.png" alt="Логотип" class="logo" />
+        <ul class="nav-links">
+          <li><a href="shop.html">МЕРЧ</a></li>
+          <li><a href="about.html">О НАС</a></li>
+          <li><a href="activity.html">ТАРИФЫ</a></li>
+        </ul>
+      </nav>
+      <button class="cta-button">ЗАПИСАТЬСЯ</button>
+    </header>
+
+    <main>
+      <h1 class="section-title">ТАРИФНЫЕ ПЛАНЫ</h1>
+
+      <section class="tariff">
+        <div class="tariff-block">
+          <div class="tariff-info">
+            <div class="tariff-name black">БАЗОВЫЙ</div>
+            <p>
+              Программа для тех, кто только садится за руль. Теория, основы
+              управления, безопасное движение, базовые манёвры и первая практика
+              на полигоне. Всё, чтобы понять, как устроено вождение и уверенно
+              стартовать.
+            </p>
+          </div>
+          <img src="images/valentina.png" alt="Инструктор Валентина" />
+        </div>
+
+        <div class="tariff-block">
+          <div class="tariff-info">
+            <div class="tariff-name white">УНИВЕРСАЛЬНЫЙ</div>
+            <p>
+              Тариф для тех, кто хочет не просто сдать экзамен,<br />
+              но и уверенно чувствовать себя на дорогах. Полный курс теории,
+              занятия на автодроме и в городе, проработка всех экзаменационных
+              маршрутов и типичных дорожных ситуаций.
+            </p>
+          </div>
+          <img src="images/alevtina.png" alt="Инструктор Алевтина" />
+        </div>
+
+        <div class="tariff-block">
+          <div class="tariff-info">
+            <div class="tariff-name black">ПРОДВИНУТЫЙ</div>
+            <p>
+              Максимально насыщенный курс. Больше практики, сложные маршруты,
+              вечерние и сложные погодные условия, дополнительные занятия по
+              парковке и управлению в нестандартных ситуациях.
+            </p>
+          </div>
+          <img src="images/nikita.png" alt="Инструктор Никита" />
+        </div>
+      </section>
+
+      <section class="form-section">
+        <h2>ЗАПИСАТЬСЯ</h2>
+        <form>
+          <input type="text" placeholder="ВАШЕ ФИО" />
+          <input type="text" placeholder="ДАТА РОЖДЕНИЯ" />
+          <input type="text" placeholder="НОМЕР ТЕЛЕФОНА" />
+          <select>
+            <option>ТАРИФ</option>
+            <option>Базовый</option>
+            <option>Универсальный</option>
+            <option>Продвинутый</option>
+          </select>
+          <button type="submit" class="btn red">ОТПРАВИТЬ</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-left">
+        <img src="images/logo.png" alt="БИБИЗян!" class="logo" />
+        <div class="text">
+          <p>Большая набережная, 9<br />bibizyan@mail.com</p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <img src="images/hse.png" alt="hse" class="hse" />
+        <div class="text1">
+          <p><br />Cтудент: Пак Тамара<br />Группа: Б24УКИ02</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

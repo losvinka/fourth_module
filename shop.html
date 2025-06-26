@@ -9,16 +9,83 @@
     <title>shop</title>
   </head>
   <body>
-    <h1>Наш мерч</h1>
-    <p>опять отдай нам много денег</p>
-    <nav>
-      <a href="index.html">Главная</a>
-      <a href="about.html">О нас</a>
-      <a href="shop.html">Мерч</a>
-      <a href="activity.html">Страница с мероприятиями </a>
-      <!-- внутри будут ссылки на страницы 2 и 3 модуля  -->
-      <a href="tariffplan.html">Тарифный план</a>
-      <a href="404.html">Ошибка 404</a>
+    <!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>БИБИЗЬЯН! — МЕРЧ</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <img src="images/logo.png" alt="Логотип" class="logo" />
+      <ul class="nav-links">
+        <li><a href="shop.html">МЕРЧ</a></li>
+        <li><a href="about.html">О НАС</a></li>
+        <li><a href="activity.html">ТАРИФЫ</a></li>
+      </ul>
     </nav>
+    <button class="cta-button">ЗАПИСАТЬСЯ</button>
+  </header>
+
+  <section class="banner">
+    <img src="images/top.png" alt="top" class="palki">
+    <p>СКИДКИ 50% НА НАШ МЕРЧ СКИДКИ 50% НА НАШ МЕРЧ</p>
+    <img src="images/bottom.png" alt="bottom" class="palki">
+  </section>
+
+  <main>
+    <section class="main-merch">
+      <div class="main-image-wrapper">
+        <img src="images/car1.png" alt="Мерч на машине" class="main-image" />
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="product">
+        <img src="images/cup.png" alt="Стаканы">
+        <button>В КОРЗИНУ</button>
+      </div>
+      <div class="product soon">
+        <img src="images/hydrant.png" alt="Гидрант">
+        <button>СКОРО В ПРОДАЖЕ</button>
+      </div>
+      <div class="product">
+        <img src="images/car2.png" alt="Мерч с наклейкой">
+        <button>В КОРЗИНУ</button>
+      </div>
+    </section>
+
+    <section class="text-image">
+      <div class="image">
+        <div class="product soon">
+          <div class="description">
+            <p>
+              <span style="--delay: 0s">Наш мерч — это знак принадлежности к «Бибизян!». Наклейки, аксессуары и детали</span>
+              <span style="--delay: 1s">для тех, кто в теме. Это про сообщество. Про тех, кто прошёл через нашу автошколу </span>
+              <span style="--delay: 2s">или просто разделяет подход. Простые, понятные вещи, которые хочется носить, </span>
+              <span style="--delay: 3s">клеить, использовать каждый день. Без лишнего смысла. Просто хороший мерч.</span>
+            </p>
+          </div>
+          <img src="images/banana.png" alt="Гидрант">
+          <button>СКОРО В ПРОДАЖЕ</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-left">
+      <img src="images/logo.png" alt="БИБИЗян!" class="logo"/>
+      <div class="text"> <p>Большая набережная, 9<br />bibizyan@mail.com</p></div>
+    </div>
+    <div class="footer-right">
+      <img src="images/hse.png" alt="hse" class="hse"/><div class="text1"><p><br/>Cтудент: Пак Тамара<br />Группа: Б24УКИ02</p></div>
+    </div>
+  </footer>
+</body>
+</html>
   </body>
 </html>
